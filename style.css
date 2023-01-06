@@ -16,7 +16,9 @@
     padding: 16px 20px;
 
 }
+
 /* header section style */
+
 .header-section{
     background-image: url(images/donation0.jpg), linear-gradient(to bottom, rgba(185, 185, 185, 0.185), rgb(0, 0, 0));
     background-blend-mode: overlay;
@@ -44,11 +46,14 @@
 }
 
 /* main section styles */
+
 section{
     padding: 0 156px;
 }
+
 /* donate section style */
-.donate-section{
+
+.main-section{
     margin-top: 130px ;
     text-align: center;
     
@@ -101,8 +106,88 @@ section{
 }
 
 /* plan section design */
-    
 
+.plan-section{
+    display: flex;
+    gap: 24px ;
+    margin-bottom: 130px;
+ }
+ .plan{
+    padding: 65px 23px 55px;
+ }
+
+.plans-title{
+    margin-top: 32px;
+    margin-bottom: 16px;
+    color: #121212;
+    font-weight: 600;
+    font-size: 24px;
+}
+.plans-description{
+    color: #707070;
+}
+#food{
+    background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;    
+}
+#shelter{
+    background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;    
+}
+#education{
+    background-color: #FFF4D6;
+    border-radius: 5px;    
+}
+
+/* contribute section style */
+.how-to-contribute{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 83;
+
+}
+.how-to-contribute img{
+    width: 80%;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.how-to-contribute p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+    /* padding: 0 30px; */
+}
+
+/* email part style */
+.subscribe {
+    text-align: center;
+}
+.email{
+    padding: 76px 188px;
+    text-align: center;
+    background-color: #FFF4D6;
+    
+}
+
+.email input[type="email"]{
+    height: 29px;
+    border: 0;
+    padding: 18px 30px;
+    width: 20%;
+}
+
+.btn{
+    height: 57px;
+    background-color:#FF5959 ;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    padding: 14px 43px;
+}
 /* footer style*/
 footer{
     background-color: #0B0D17;
@@ -114,9 +199,7 @@ footer h3{
     font-weight: 200;
     text-align: center;
     color: #FF5959;
-    padding: 30px 0;
-
-    
+    padding: 30px 0;  
 }
 footer p{
     font-weight: 400;
