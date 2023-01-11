@@ -15,6 +15,7 @@
     border: 0;
     border-radius: 5px;
     padding: 16px 20px;
+    margin-bottom: 50px;
 
 }
 
@@ -52,6 +53,7 @@
 
 section {
     padding: 0 156px;
+    /* margin-bottom: 130px; */
 }
 
 /* donate section style */
@@ -238,4 +240,53 @@ footer p {
     color: #D9DBE1;
     text-align: center;
     padding-bottom: 30px;
+}
+
+.hide{
+    display: none;
+}
+
+/* Responsive design */
+@media screen and (max-width:576px) {
+    .header-section{
+        padding: 0;
+        background-image: url(images/donation0.jpg), linear-gradient(to top, rgba(185, 185, 185, 0.185), rgb(74 73 73));
+        margin-bottom: 20px;
+    }
+    section, 
+    .email {
+        padding: 0;
+    }
+    .hr{
+        padding: 10px;
+    }
+    .donate-now{
+        flex-direction: column;
+        align-items: center;
+    }
+    .plan-section{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .how-to-contribute{
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+    .how-to-contribute img{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .reverse{
+        flex-direction: column;
+    }
+    .email input[type="email"] {
+        width: 165px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .header-section{
+        padding: 0;
+        background-image: url(images/donation0.jpg), linear-gradient(to top, rgba(185, 185, 185, 0.185), rgb(74 73 73));
+        margin-bottom: 20px;
+    }
 }
